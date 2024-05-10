@@ -1,10 +1,10 @@
-[![CI/CD GitHub Actions](https://github.com/sinseiwas/gtest/actions/workflows/test-action.yml/badge.svg)](https://github.com/sinseiwas/gtest/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/sinseiwas/gtest/badge.svg?branch=master)](https://coveralls.io/github/sinseiwas/gtest?branch=master)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=sinseiwas_gtest)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=sinseiwas_gtest)
-[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=sinseiwas_gtest)
+[![CI/CD GitHub Actions](https://github.com/sinseiwas/gtest_lab/actions/workflows/test-action.yml/badge.svg)](https://github.com/sinseiwas/gtest_lab/actions/workflows/test-action.yml)
+[![Coverage Status](https://coveralls.io/repos/sinseiwas/gtest_lab/badge.svg?branch=master)](https://coveralls.io/github/sinseiwas/gtest_labb?branch=master)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest_lab&metric=alert_status)](https://sonarcloud.io/dashboard?id=sinseiwas_gtest_lab)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest_lab&metric=bugs)](https://sonarcloud.io/summary/new_code?id=sinseiwas_gtest_lab)
+[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest_lab&metric=code_smells)](https://sonarcloud.io/dashboard?id=sinseiwas_gtest_lab)
 
-# Пример работы связки Qt + Google Test (gtest) + QtCreator
+# Пример работы связки Qt + Google Test (gtest_lab) + QtCreator
 
 ## Загрузка и запуск примера на локальном компьютере
 
@@ -12,7 +12,7 @@
 В ОС Ubuntu необходимо установить пакеты `qt5-default qt5-qmake qtcreator`. 
 В ОС Windows необходимо установить Qt и компилятор, например, mingw с помощью онлайн установщика https://www.qt.io/download-qt-installer
 2. Выполнить клонирование репозитория с помощью утилиты git (`git clone ....`).
-3. Для подгрузки gtest необходимо выполнить команды:
+3. Для подгрузки gtest_lab необходимо выполнить команды:
 ```shell
 git submodule init
 git submodule update
@@ -62,7 +62,7 @@ git init
 2. Подключить репозиторий с своим проектом
 3. В настройках репозитория скопировать токен
 4. В настройках гитхаба в разделе `secrets - actions` создать ключ `coveralls_token` со значением токена
-5. Запустить github actions, проверить успешное выполнение задания gtest-tests
+5. Запустить github actions, проверить успешное выполнение задания gtest_lab-tests
 6. проверить появление статистики на coveralls.io
 7. Обновить бейдж покрытия в соответствии с названием профиля и репозитория
 
@@ -72,7 +72,7 @@ git init
 3. Скопировать токен проекта, в настройках github в разделе `secrets - actions` создать ключ `sonar_token` со значением токена
 4. продолжить настройку проекта на sonarcloud до раздела с конфигурационным файлом
 5. Изменить значения названия проекта и организации в файле sonar-project.properties в соответствии с предложенными
-6. Запустить github actions, проверить успешное выполнение задания gtest-tests
+6. Запустить github actions, проверить успешное выполнение задания gtest_lab-tests
 7. проверить появление результатов на sonarcloud
 8. Обновить бейджи статистик в соответствии с названием профиля и репозитория
-# gtest_lab
+# gtest_lab_lab
