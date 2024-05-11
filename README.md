@@ -1,5 +1,5 @@
 [![CI/CD GitHub Actions](https://github.com/sinseiwas/gtest_lab/actions/workflows/test-action.yml/badge.svg)](https://github.com/sinseiwas/gtest_lab/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/sinseiwas/gtest_lab/badge.svg?branch=master)](https://coveralls.io/github/sinseiwas/gtest_labb?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/sinseiwas/gtest_lab/badge.svg)](https://coveralls.io/github/sinseiwas/gtest_lab)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest_lab&metric=alert_status)](https://sonarcloud.io/dashboard?id=sinseiwas_gtest_lab)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest_lab&metric=bugs)](https://sonarcloud.io/summary/new_code?id=sinseiwas_gtest_lab)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=sinseiwas_gtest_lab&metric=code_smells)](https://sonarcloud.io/dashboard?id=sinseiwas_gtest_lab)
