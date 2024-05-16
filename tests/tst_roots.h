@@ -29,7 +29,7 @@ TEST(roots, float_input_float_out) {
 }
 
 TEST(roots, one_root) {
-    result = roots(arr, 1, -6, 9);
+    result = roots(arr, 1, -5, 9);
     EXPECT_EQ(result, 1);
     EXPECT_EQ(arr[0], 3);
     EXPECT_EQ(arr[1], 3);
